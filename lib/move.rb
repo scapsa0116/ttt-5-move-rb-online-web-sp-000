@@ -17,10 +17,3 @@ def move(board, index, player = "X")
    board[index] = player = "X"
 
  end
-
-
- valid_move?(board, index)
- position_taken?(board, index)
- input_to_index(user_input)
- move(board, index, first_player = "X")
- end
