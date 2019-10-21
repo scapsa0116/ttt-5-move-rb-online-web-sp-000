@@ -23,3 +23,4 @@ def move(board, index, player = "X")
  position_taken?(board, index)
  input_to_index(user_input)
  move(board, index, first_player = "X")
+ end
