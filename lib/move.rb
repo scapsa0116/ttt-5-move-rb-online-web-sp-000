@@ -17,7 +17,3 @@ def move(board, index, player = "X")
    board[index] = player = "X"
 
 end
-def move(board, index, player = "O")
-   board[index] = player = "O"
-
-end
