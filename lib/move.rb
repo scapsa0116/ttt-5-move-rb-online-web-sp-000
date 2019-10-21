@@ -14,8 +14,12 @@ def input_to_index(input)
 end
 
 def move(board, index, player = "X")
-   board[index] = player = "X#{board[0]}"
+   board[index] = player = "X"
 
+ end
 
-
-end
+ display_board(board)
+ valid_move?(board, index)
+ position_taken?(board, index)
+ input_to_index(user_input)
+ move(board, index, first_player = "X")
