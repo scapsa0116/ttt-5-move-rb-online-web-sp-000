@@ -6,11 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-
-def move(array, index, value="X")
+def update_array_at_with(array, index, value)
   array[index] = value
 end
-def input_to_index(imput)
-  imput.to_i-1
-
+def imput_to_index(imput)
+  imput.toi-1
 end
