@@ -11,3 +11,4 @@ def update_array_at_with(array, index, value)
 end
 def imput_to_index(imput)
   imput.to_i-1
+end
