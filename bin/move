@@ -4,6 +4,6 @@ require_relative '../lib/move.rb'
 
 
 puts "Welcome to Tic Tac Toe!"
-board = [" ", " ", " X ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 imput = gets.strip
