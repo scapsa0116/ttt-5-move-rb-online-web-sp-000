@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 imput = gets.strip
-chmod + X <display_board>
+gets(imput)
