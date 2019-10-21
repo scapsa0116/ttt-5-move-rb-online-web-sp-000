@@ -6,4 +6,7 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
-imput = gets.strip
+input = gets.strip
+def input_to_index(input)
+  input.to_i-1
+end
